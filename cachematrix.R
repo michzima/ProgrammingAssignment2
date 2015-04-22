@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This fanction creates a special "matrix" object that can cache its inverse object
 
-## this fanction creates a special "matrix" object that can cache its inverse object
+## This function creates a special "matrix", which is really a list containing a functions to :
+## set the value of the vector - get
+## get the value of the vector - set
+## set the inverse matrix - setinvmx
+## get the inverse matrix - getinvmx
 
 makeCacheMatrix <- function(x = matrix()) {
 
